@@ -1,0 +1,2 @@
+ Milestone 2 — Tool-Based Agent
+The agent uses two Python tools to retrieve answers from a knowledge base and contact-information store. When information is unavailable, it returns a fixed fallback message instead of inventing an answer. I check consistency by asking the same question twice and comparing the responses. Automated tests verify known questions, unknown questions, repeated questions, and empty input.
